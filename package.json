@@ -1,12 +1,13 @@
 {
-  "name": "@coffee/atc",
+  "name": "@wei-tools/atc",
   "version": "0.1.0",
   "description": "an simplified tool of async/await error",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint src --ext .ts -c .eslintrc"
+    "lint": "eslint src --ext .ts -c .eslintrc",
+    "build": "tsc"
   },
   "homepage": "https://github.com/CoffeeWorm/atc",
   "repository": {
@@ -37,7 +38,6 @@
     "@types/node": "^16.10.3",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
-    "babel-cli": "^6.26.0",
     "eslint": "^7.32.0",
     "jest": "^27.2.4",
     "prettier": "^2.4.1",
