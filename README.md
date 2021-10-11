@@ -1,6 +1,8 @@
 # atc
 
-A solution of async/await error catch.
+![](https://img.shields.io/npm/v/@wei-tools/atc)
+
+A solution of catching async/await error.
 
 ## usage
 
